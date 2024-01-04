@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Main-Container{
+    height: 100vh;
+    background-color: bisque;
+}
+.Flag-Container{
+    height: 250px;
+    width: 450px;
+    background-color: rgb(1, 106, 1);
+    position: relative;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-30%);
+}
+.Flag-Circel{
+    height: 120px;
+    width: 120px;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 100%;
+}
+.Flag-Stick{
+    height: 200px;
+    width: 30px;
+    background-color: black;
+    position: relative;
+    top: 90%;
+    border-top-right-radius: 30px;
+}
+.Flag-Footer{
+    height: 50px;
+    width: 80px;
+    background-color: black;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.Flag-Name{
+    text-align: center;
+    background-color: rgb(255, 213, 0);
+}
+.Flag-Nation{
+    text-align: center;
+}
